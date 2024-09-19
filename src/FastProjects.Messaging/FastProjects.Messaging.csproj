@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <PackageId>FastProjects.Messaging</PackageId>
+        <PackageVersion>1.0.7</PackageVersion>
+        <Authors>George Park</Authors>
+
+        <Title>FastProjects.Messaging</Title>
+        <Description>Collection of interfaces to work with integration events and messaging systems integrated with MassTransit.</Description>
+
+        <PackageProjectUrl>https://github.com/Fast-Projects-NET/FastProjects.Messaging</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/Fast-Projects-NET/FastProjects.Messaging</RepositoryUrl>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+        <PackageTags>FastProjects</PackageTags>
+
+        <PackageIcon>logo-icon.png</PackageIcon>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+
+        <ReleaseNotes>
+            * Initial release
+        </ReleaseNotes>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit"/>
+    </ItemGroup>
+
+</Project>
